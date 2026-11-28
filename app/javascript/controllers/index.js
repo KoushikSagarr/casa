@@ -55,6 +55,9 @@ application.register("dismiss", DismissController)
 import DropdownController from "./dropdown_controller"
 application.register("dropdown", DropdownController)
 
+import EmancipationChecklistController from "./emancipation_checklist_controller"
+application.register("emancipation-checklist", EmancipationChecklistController)
+
 import LocalStorageResetController from "./local_storage_reset_controller"
 application.register("local-storage-reset", LocalStorageResetController)
 
@@ -66,6 +69,9 @@ application.register("multiple-select", MultipleSelectController)
 
 import NavDrawerController from "./nav_drawer_controller"
 application.register("nav-drawer", NavDrawerController)
+
+import PatchNotesController from "./patch_notes_controller"
+application.register("patch-notes", PatchNotesController)
 
 import ReportSubmitController from "./report_submit_controller"
 application.register("report-submit", ReportSubmitController)
